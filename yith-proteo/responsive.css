@@ -433,11 +433,13 @@
     padding-right: 0;
   }
   table.shop_table_responsive tbody tr td,
+  table.shop_table_responsive tbody tr th,
   table.shop_table_responsive thead tr th {
     border: none !important;
     padding: 20px 5px;
   }
   table.shop_table_responsive tbody tr td .quantity input,
+  table.shop_table_responsive tbody tr th .quantity input,
   table.shop_table_responsive thead tr th .quantity input {
     max-width: 70px;
   }
@@ -465,6 +467,7 @@
     float: none;
     margin-bottom: 50px;
   }
+  body.woocommerce-checkout.woocommerce-order-pay #order_review,
   body.woocommerce-checkout #order_review {
     float: none;
     width: 100%;
